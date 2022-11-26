@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:200.300.400.500.600.700.800.900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+body{
+	font-family: 'Poppins', sans-serif;
+	background-image: url("img/grand-theft-auto-san-andreas-sidzhei-karl-dzhonson-big-smouk.jpg");
+	background-size: cover;
+}
+
+a{
+	
+}
+
+.navbar{
+	position: static;
+}
+
+main{
+	margin-top: 30px;
+	opacity: 0.9;
+}
+
+footer{
+	opacity: 0.8;
+}
+
+nav ul li{
+	transition: all .25s ease-in;
+}
+
+nav ul li:hover {
+	opacity: 0.7;
+}
+
+
+/* ID */
+
+#skills{
+	font-family: Oswald;
+	font-size: 24px;
+}
+
+#fazztechlogo{
+	width: 110px;
+	height: 110px;
+	padding: 5px;
+}
+
+#ftbuton{
+	margin-left: 15px;
+}
+
+#first-card{
+	background-color: #003B46;
+	color: white;
+	border-radius: 24px;
+	box-shadow: 0 35px 55px rgba(0,0,0,0.8);
+}
+
+#blogcard{
+	background-color: #003B46;
+	color: white;
+	border-radius: 24px;
+	box-shadow: 0 35px 55px rgba(0,0,0,0.8);
+}
+
+#blog{
+	font-family: 'Poppins', sans-serif;
+	background-image: url("img/grand-theft-auto-san-andreas-sidzhei-karl-dzhonson-big-smouk.jpg");
+	background-size: cover;
+}
+
+#mainhead{
+	margin-top: 200px;
+}
+
+#logopng{
+	width: 100px;
+	height: 100px;
+}
+
+#lists{
+	border-radius: 12px;
+}
+
+#logo{
+	width: 100px;
+	height: 100px;
+}
+
+#aciklama{
+	font-size: 18px;
+}
+
+#ftbuton{
+	margin-left: 15px;
+}
+
+
+
+
+/* OTHER */
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+
+.content{
+	color: white;
+	height: calc(100vh - 100px);
+	padding-top: 150px;
+	margin-top: 40px;
+
+
+}
+
+.content h1{
+	font-size: 60px;
+	text-align: center;
+
+}
+
+.content p{
+	font-size: 24px;
+	text-align: center;
+	margin-top: 32px;
+	
+}
+
+.content .links{
+	display: flex;
+	justify-content: center;
+	margin-top: 48px;
+	column-gap: 16px; /*Kolonların arasını açar */
+
+}
+
+.content .links a{
+	background-color: white;
+	padding: 20px;
+	width: 280px;
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	text-decoration: none;
+	border-radius: 56px;
+	transition: all .25s ease-in; /* Geçiş Efekti */
+}
+
+.content .links a:hover{
+	background-color: #0ba2c0;
+	color: white;
+
+}
+
+
+/* Responsive Başlangıç */
+
+@media(max-width:576px){
+	.container{
+		width: 100%;
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+
+	.menu ul{
+		column-gap: 20px;
+	}
+
+	.menu .menu-button{
+		display: none;
+	}
+
+	.content{
+		padding-top: 50px;
+	}
+
+	.content h1{
+		font-size: 36px;
+	}
+
+	.content p{
+		font-size: 16px;
+	}
+
+	.content .links{
+		flex-direction: column;
+		align-items: center;
+		row-gap: 1rem;
+	}
+
+
+	.content .links a{
+		padding: 14px;
+		width: 90%;
+	}
+
+}
+
+
+
+/* Responsive Bitiş */
